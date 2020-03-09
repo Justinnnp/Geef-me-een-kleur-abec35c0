@@ -1,7 +1,7 @@
 function change() {
 
-    var theInput = document.getElementById("favColor");
-    var theColor = theInput.value;
+    var input = document.getElementById("favColor");
+    var color = input.value;
 
-    document.getElementById("color").style.backgroundColor = theColor;
+    document.getElementById("color").style.backgroundColor = color;
 }
